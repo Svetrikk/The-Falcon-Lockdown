@@ -1,10 +1,10 @@
 name: Bug report
 description: Report a crash or bug
-title: "[Bug]: "
+title: "[BUG] "
 labels:
   - bug
 body:
-  - type: input
+  - type: textarea
     id: bug-description
     attributes:
       label: Describe the bug
