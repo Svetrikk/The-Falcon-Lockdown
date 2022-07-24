@@ -4,6 +4,12 @@ title: "[BUG] "
 labels:
   - bug
 body:
+  - type: input
+    id: modpack-version
+    attributes:
+      label: Modpack Version
+    validations:
+      required: true
   - type: textarea
     id: bug-description
     attributes:
