@@ -11,3 +11,11 @@ body:
       description: Brief & clear description of the bug or crash
     validations:
       required: true
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Steps to reproduce
+      description: Please provide as much information as possible on how to reproduce the bug or crash again.
+      placeholder: 1, When I do this then that happens
+    validations:
+      required: true
