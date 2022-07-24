@@ -4,7 +4,7 @@ title: "[BUG] "
 labels:
   - bug
 body:
-  - type: input
+  - type: textarea
     id: bug-description
     attributes:
       label: Describe the bug
@@ -16,11 +16,5 @@ body:
      attributes:
        label: Steps to reproduce
        description: Tell us the steps to reproduce the bug
-       value: |
-       1,
-       2,
-       3,
-       4,
-       ...
      validations:
        required: true
